@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
-
 import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
 import io.restassured.RestAssured;
@@ -24,15 +23,16 @@ public class ApiTest {
     private Properties loadFromEnvProperties(String propFileName) {
         Properties prop = null;
 
-        String path = System.getProperty("user.home");
+
         try {
+            String path = ApiTest.class.getClassLoader().getResource(propFileName).getPath();
             prop = new Properties();
-            System.out.println(path + File.separator + propFileName);
-            InputStream in = new BufferedInputStream(new FileInputStream(path + File.separator + propFileName));
+            System.out.println(path);
+            InputStream in = new BufferedInputStream(new FileInputStream(path));
             prop.load(in);
             in.close();
         } catch (Exception e) {
-            System.out.println("配置文件加载失败，请检查" + path + File.separator + propFileName);
+            System.out.println("配置文件加载失败，请检查" + File.separator + propFileName);
         }
         return prop;
     }
@@ -70,6 +70,7 @@ public class ApiTest {
         String actualCityName = getCityName("101280601");
         Assertions.assertEquals(expectCityName, actualCityName);
     }
+
     @Test
     @Feature("Test ShangHai")
     public void testShangHai() {
