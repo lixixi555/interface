@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.lucy.test.ApiTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.498 s <<< FAILURE! - in com.lucy.test.ApiTest
+testBeijing  Time elapsed: 5.116 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <北京> but was: <鍖椾含>
+	at com.lucy.test.ApiTest.testBeijing(ApiTest.java:86)
+
+testShangHai  Time elapsed: 0.176 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <上海> but was: <涓婃捣>
+	at com.lucy.test.ApiTest.testShangHai(ApiTest.java:78)
+
+testShenZhen  Time elapsed: 0.133 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <深圳> but was: <娣卞湷>
+	at com.lucy.test.ApiTest.testShenZhen(ApiTest.java:71)
+

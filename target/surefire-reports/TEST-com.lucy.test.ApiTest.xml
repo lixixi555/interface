@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lucy.test.ApiTest" time="5.498" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\study\interface\interface\target\test-classes;D:\study\interface\interface\target\classes;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Admin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-junit5\2.13.2\allure-junit5-2.13.2.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.2\allure-junit-platform-2.13.2.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Admin\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Admin\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\software\java\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire4321664123070919168\surefirebooter1371128356358523398.jar C:\Users\Admin\AppData\Local\Temp\surefire4321664123070919168 2021-08-24T00-17-49_224-jvmRun1 surefire3153901292917355728tmp surefire_03613316210699559137tmp"/>
+    <property name="surefire.test.class.path" value="D:\study\interface\interface\target\test-classes;D:\study\interface\interface\target\classes;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Admin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-junit5\2.13.2\allure-junit5-2.13.2.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.2\allure-junit-platform-2.13.2.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Admin\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Admin\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\software\java\jre"/>
+    <property name="basedir" value="D:\study\interface\interface"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire4321664123070919168\surefirebooter1371128356358523398.jar;C:\Users\Admin\.m2\repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar"/>
+    <property name="sun.boot.class.path" value="D:\software\java\jre\lib\resources.jar;D:\software\java\jre\lib\rt.jar;D:\software\java\jre\lib\sunrsasign.jar;D:\software\java\jre\lib\jsse.jar;D:\software\java\jre\lib\jce.jar;D:\software\java\jre\lib\charsets.jar;D:\software\java\jre\lib\jfr.jar;D:\software\java\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\software\java\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.1.5"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="D:\study\interface\interface"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\software\java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\software\xshell\;D:\software\secureCT\SecureCRT双软件\secure\;C:;Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\java\bin;D:\software\android\android-sdk\tools;D:\software\android\android-sdk\tools\bin;D:\software\android\android-sdk\platform-tools;D:\software\android\android-sdk\build-tools\28.0.0;C:\WINDOWS\System32\OpenSSH\;D:\software\node\;D:\software\python\python27;D:\software\python\python3;D:\software\python\python27\Scripts;D:\software\python\python3\Scripts;D:\software\maven\apache-maven\bin;C:\Users\Admin\AppData\Local\Google\Chrome\Application;D:\software\git\Git\cmd;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;D:\software\Fiddler;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Google\Chrome\Application;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="D:\software\java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testBeijing" classname="com.lucy.test.ApiTest" time="5.116">
+    <failure message="expected: &lt;北京&gt; but was: &lt;鍖椾含&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <北京> but was: <鍖椾含>
+	at com.lucy.test.ApiTest.testBeijing(ApiTest.java:86)
+]]></failure>
+    <system-out><![CDATA[C:\Users\Admin\interface.properties
+配置文件加载失败，请检查C:\Users\Admin\interface.properties
+{"weatherinfo":{"city":"鍖椾含","cityid":"101010100","temp1":"18鈩?","temp2":"31鈩?","weather":"澶氫簯杞槾","img1":"n1.gif","img2":"d2.gif","ptime":"18:00"}}
+北京Test Finished
+]]></system-out>
+  </testcase>
+  <testcase name="testShangHai" classname="com.lucy.test.ApiTest" time="0.176">
+    <failure message="expected: &lt;上海&gt; but was: &lt;涓婃捣&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <上海> but was: <涓婃捣>
+	at com.lucy.test.ApiTest.testShangHai(ApiTest.java:78)
+]]></failure>
+    <system-out><![CDATA[C:\Users\Admin\interface.properties
+配置文件加载失败，请检查C:\Users\Admin\interface.properties
+{"weatherinfo":{"city":"涓婃捣","cityid":"101020100","temp1":"19鈩?","temp2":"23鈩?","weather":"澶ч洦杞腑闆?","img1":"n9.gif","img2":"d8.gif","ptime":"18:00"}}
+上海Test Finished
+]]></system-out>
+  </testcase>
+  <testcase name="testShenZhen" classname="com.lucy.test.ApiTest" time="0.133">
+    <failure message="expected: &lt;深圳&gt; but was: &lt;娣卞湷&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <深圳> but was: <娣卞湷>
+	at com.lucy.test.ApiTest.testShenZhen(ApiTest.java:71)
+]]></failure>
+    <system-out><![CDATA[C:\Users\Admin\interface.properties
+配置文件加载失败，请检查C:\Users\Admin\interface.properties
+{"weatherinfo":{"city":"娣卞湷","cityid":"101280601","temp1":"24鈩?","temp2":"30鈩?","weather":"闃甸洦杞ぇ闆?","img1":"n3.gif","img2":"d9.gif","ptime":"18:00"}}
+深圳Test Finished
+]]></system-out>
+  </testcase>
+</testsuite>
