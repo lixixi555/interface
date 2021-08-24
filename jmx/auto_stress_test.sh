@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+export jmx_template="iInterface"
+export suffix=".jmx"
+export jmx_template_filename="${jmx_template}${suffix}"
+export os_type=`uname`
+
+export jmeter_path=""
+
+echo "自动化压测开始"
+
+#压测并发数量表
+thread_number_array=(10 20 30)
+for num in "${thread_number_array[@]}"
+
+do
+
+  export jmx_filename="${jmx_template}_${num}${suffix}"
+  export jtl_filename="test_${num}.jtl"
+  export web_report_path_name="web_${num}"
+
+  rm -f ${jmx_filename} ${jtl_filename}
+  rm -rf ${web_report_path_name}
+
+  cp ${jmx_template_filename} ${jmx_filename}
+  echo "生成jmx压测脚本 ${jmx_filename}"
+
+  if [  ["${os_type}" == "Darwin"] ]; then
+    sed -i "" "s/thread_num/${num}/g" ${jmx_filename}
+  else
+    sed -i "s/thread_num/${num}/g" ${jmx_filename}
+  fi
+
+  #JMETER静默压测
+  ${jmeter_path}/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename}
+
+  #生成Web压测报告
+  ${jmeter_path}/bin/jmeter -g ${jtl_filename} -e -o ${web_report_path_name}
+
+  rm -f ${jmx_filename} ${jtl_filename}
+
+done
+
+echo "自动化压测全部结束"
