@@ -5,7 +5,7 @@ export suffix=".jmx"
 export jmx_template_filename="${jmx_template}${suffix}"
 export os_type=`uname`
 
-export jmeter_path=""
+export jmeter_path="/usr/local/jmeter"
 
 echo "自动化压测开始"
 
